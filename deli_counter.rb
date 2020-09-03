@@ -1,10 +1,9 @@
 # Write your code here.
-
+$ticket_number = 0
 def take_a_number(katz_deli)
-  ticket_number = 0
-  ticket_number += 1
-  katz_deli << ticket_number
-  puts "Welcome, your ticket number is  #{ticket_number}"
+  $ticket_number += 1
+  katz_deli << $ticket_number
+  puts "Welcome, your ticket number is  #{$ticket_number}"
 end
 
 def take_a_number(katz_deli, name)
