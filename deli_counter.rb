@@ -1,7 +1,8 @@
 # Write your code here.
 
 def take_a_number(katz_deli)
-  ticket_number = 1
+  ticket_number = 0
+  ticket_number += 1
   katz_deli << ticket_number
   puts "Welcome, your ticket number is  #{ticket_number}"
 end
